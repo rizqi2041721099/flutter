@@ -1418,7 +1418,7 @@ class _WidgetsAppState extends State<WidgetsApp> with WidgetsBindingObserver {
   Route<dynamic> _onUnknownRoute(RouteSettings settings) {
     assert(() {
       if (widget.onUnknownRoute == null) {
-        throw FlutterError(
+         throw FlutterError(
           'Could not find a generator for route $settings in the $runtimeType.\n'
           'Make sure your root app widget has provided a way to generate \n'
           'this route.\n'
